@@ -2,14 +2,18 @@
 
 /**
 *main-Entry point
-
 *
 *Return:Always 0 (Success)
 */
 
 int main(void)
-
 {
+
+	int i;
+	long int l;
+	long long int ll;
+	float d;
+	char c;
 
 printf("Size of a char: %ld byte(s)\n", sizeof(char));
 printf("Size of an int: %ld byte(s)\n", sizeof(int));
