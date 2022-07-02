@@ -1,12 +1,10 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
  * main - this prints the last digit of the random number in the variable n
- * Return: 0 if (Successful)
+ * Return: Always 0 (Successful)
 */
 
 int main(void)
