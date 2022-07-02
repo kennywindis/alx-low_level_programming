@@ -22,13 +22,12 @@ if (((k + J) > (c + i) && k >= c) || c < k)
 {
 putchar(c);
 putchar(i);
-putchar('');
 putchar(k);
 putchar(j);
 
 if (c + i + j + k + j == 227 && c == 57)
 {
-break
+break;
 }
 else
 {
