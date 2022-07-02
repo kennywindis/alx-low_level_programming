@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - this prints the last digit of the random number in the variable n
- * Return: Always 0 (Successful)
+ * main - Task 1 prints the last digit of the random number in the variable n
+ * Return: 0 (Successful)
 */
 
 int main(void)
@@ -14,7 +14,7 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("Last digit of %d is %d", n, n % 10);
+printf("Last digit of %d is %d", last, n, n % 10);
 if (n % 10 > 5)
 {
 	printf("Last digit of %d is %d and is greater than 5\n");
