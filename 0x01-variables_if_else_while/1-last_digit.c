@@ -3,8 +3,9 @@
 #include <time.h>
 
 #include <stdio.h>
+
 /**
- * main - print the last digit of the random number stored in the variable n
+ * main - this prints the last digit of the random number in the variable n
  * Return: 0 if (Successful)
 */
 
