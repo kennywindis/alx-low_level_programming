@@ -4,19 +4,19 @@
 
 
 /**
- * main - prints the alphabet in lowercase
+ * main - prints the alphabet in lowercase\n
  * Return: 0 if (Success)
  */
 
 int main(void)
 
 {
-char d = 'a';
-while (d <= 'a')
+int ch;
+
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(d);
-d++;
+	putchar(ch);
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
