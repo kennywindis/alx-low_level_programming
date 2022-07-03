@@ -11,13 +11,13 @@ int main(void)
 {
 int c, i, k, j;
 
-for (c = 0; c <= 99; c++)
+for (c = 0; c <= 57; c++)
 {
-for (i = 0; i <= 99; i++)
+for (i = 0; i <= 57; i++)
 {
-for (k = 0; k <= 99; k++)
+for (k = 0; k <= 57; k++)
 {
-for (j = 0; j <= 99; j++)
+for (j = 0; j <= 57; j++)
 {
 if (((k + j) > (c + i) && k >= c) || c < k)
 {
