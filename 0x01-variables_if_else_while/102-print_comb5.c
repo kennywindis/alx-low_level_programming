@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combination of 2-digit numbers
+ * main - prints all possible combination
+ * of 2-digit numbers
  * Return: always 0 (success)
  */
 int main(void)
