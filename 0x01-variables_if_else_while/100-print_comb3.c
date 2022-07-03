@@ -11,9 +11,9 @@ int main(void)
 {
 int c, i;
 
-for (c = '00'; c <= '89'; c++)
+for (c = '0'; c <= '9'; c++)
 {
-for (i = '00'; i <= '89'; i++)
+for (i = '0'; i <= '9'; i++)
 {
 if (c < i)
 {
@@ -21,7 +21,7 @@ putchar(c);
 
 putchar(i);
 
-if (c != '89' || (c == '88' && i != '89'))
+if (c != '8' || (c == '8' && i != '9'))
 
 {
 putchar(',');
