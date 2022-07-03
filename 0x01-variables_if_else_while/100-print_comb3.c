@@ -9,27 +9,27 @@
 
 int main(void)
 {
-		int c, i;
+int c, i;
 
-		for (c = '00'; c <= '89'; c++)
+for (c = '00'; c <= '89'; c++)
 {
-	for (i = '00'; i <= '89'; i++)
-	{
-		if (c < i)
-		{
-			putchar(c);
+for (i = '00'; i <= '89'; i++)
+{
+if (c < i)
+{
+putchar(c);
 
-			putchar(i);
+putchar(i);
 
-		if (c != '89' || (c == '88' && i != '89'))
+if (c != '89' || (c == '88' && i != '89'))
 
-		{
-			putchar(',');
+{
+putchar(',');
 
-			putchar(' ');
-		}
-		}
-	}
+putchar(' ');
+}
+}
+}
 }
 putchar('\n');
 
