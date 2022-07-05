@@ -10,14 +10,15 @@
 int main(void)
 {
 
-	char ch[] = '_putchar';
+	char c[] = '_putchar';
 
 
-	for (ch = 0; ch <= 8; ch++)
+	for (c = 0; c <= 8; c++)
 	{
 
-		_putchar("ch\n");
+		_putchar(c);
 	}
 
+	_putchar("\n");
 	return (0);
 }
