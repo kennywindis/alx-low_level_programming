@@ -10,7 +10,7 @@
 int main(void)
 {
 
-	char ch[8] = "_putchar"
+	char ch[8] = '_putchar';
 
 
 	for (ch = 0; ch <= 8;)
