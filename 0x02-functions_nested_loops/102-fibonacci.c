@@ -8,21 +8,21 @@
 int main(void)
 {
 int k = 0;
-long d1 = 1, d2 = 2;
+long d = 1, w = 2;
 
 while (k < 50)
 {
 
 if (k == 0)
-printf("%ld", d1);
+printf("%ld", d);
 
 else if (k == 1)
-printf("%ld", d2);
+printf("%ld", w);
 
 else
 {
-d2 += d1;
-d1 = d2 - d1;
+w += d;
+d = w - d;
 printf(", %ld", d2);
 }
 
