@@ -26,7 +26,7 @@ d1 = d2 - d1;
 printf(", %ld", d2);
 }
 
-++k
+++k;
 
 }
 printf("\n");
