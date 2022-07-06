@@ -23,7 +23,7 @@ else
 {
 w += d;
 d = w - d;
-printf(", %ld", d2);
+printf(", %ld", w);
 }
 
 ++k;
