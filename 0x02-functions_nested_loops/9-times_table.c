@@ -13,7 +13,7 @@ int num, xply, result;
 for (num = 0; num <= 9; num++)
 {
 
-_putchar(0);
+_putchar('0');
 
 for (xply = 1; xply <= 9; xply++)
 {
