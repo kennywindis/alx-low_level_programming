@@ -8,14 +8,14 @@
 int main(void)
 {
 int k;
-unsigned long d1 = 1, d2 = 2, d3;
+unsigned long d1 = 1, d2 = 2;
 
 for (k = 1; k < 50; k++)
 {
-d3 = d1 + d2;
-printf("%lu", d3);
+d2 += d1;
+printf("%lu", d2);
 d1 = d2;
-d2 = d3;
+
 
 if (k == 49)
 printf("\n");
