@@ -11,7 +11,7 @@ void print_times_table(int n)
 
 int num, xply, result;
 
-if (n <= 15 && n >= 0)
+if (n <= 15 && n > 0)
 {
 for (num = 0; num <= n; num++)
 {
@@ -29,7 +29,7 @@ _putchar(' ');
 if (result <= 9)
 _putchar(' ');
 
-if (result >= 100)
+if (result > 100)
 {
 _putchar((result / 100) + '0');
 _putchar((result / 10) % 10 + '0');
