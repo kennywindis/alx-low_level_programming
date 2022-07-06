@@ -10,7 +10,7 @@ int main(void)
 int k;
 unsigned long d1 = 1, d2 = 2, d3;
 
-for (k = 0; k < 50; k++)
+for (k = 1; k < 50; k++)
 {
 d3 = d1 + d2;
 printf("%lu", d3);
