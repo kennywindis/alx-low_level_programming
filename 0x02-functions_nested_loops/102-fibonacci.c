@@ -8,7 +8,7 @@
 int main(void)
 {
 int k;
-unsigned long d1 = 0, d2 = 1 d3;
+unsigned long d1 = 0, d2 = 1, d3;
 
 for (k = 0; k < 50; k++)
 {
@@ -20,7 +20,7 @@ d2 = d3;
 if (k == 49)
 printf("\n");
 else
-printf(',');
+printf(",");
 
 }
 return (0);
