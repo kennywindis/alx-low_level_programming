@@ -7,19 +7,28 @@
 
 int main(void)
 {
-int k;
-unsigned long d1 = 1, d2 = 2;
+int k = 0;
+long d1 = 1, d2 = 2;
 
-for (k = 0; k < 50; k++)
+while (k < 50)
 {
-d2 += d1;
-printf("%lu", d2);
 
 if (k == 0)
-printf("\n");
+printf("%ld", d1);
+
+else if (k == 1)
+printf("%ld", d2);
+
 else
-printf(",");
+{
+d2 += d1;
+d1 = d2 - d1;
+printf(", %ld", d2);
+}
+
+++k
 
 }
+printf("\n");
 return (0);
 }
