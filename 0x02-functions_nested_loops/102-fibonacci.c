@@ -10,7 +10,7 @@ int main(void)
 int k = 0;
 long d = 1, w = 2;
 
-while (k < 51)
+while (k <= 50)
 {
 
 if (k == 0)
