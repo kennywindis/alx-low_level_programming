@@ -1,32 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 52 fibonacci nunmbers
+ * main - prints the first fibonacci nunmbers
  * Return: void
  */
 
 int main(void)
 {
-int k = 0;
-long d = 1, w = 2;
+unsigned long int i;
+unsigned long int bef = 1;
+unsigned long int aft = 2;
+printf("%lu", bef);
 
-while (k <= 50)
+for (i = 1; i < 50; i++)
 {
+printf(", %lu", aft);
 
-if (k == 0)
-printf("%ld", d);
+aft += bef;
 
-else if (k == 1)
-printf("%ld", w);
-
-else
-{
-w += d;
-d = w - d;
-printf(", %ld", w);
+bef = aft - bef;
 }
-++k;
-}
+
 printf("\n");
+
 return (0);
 }
