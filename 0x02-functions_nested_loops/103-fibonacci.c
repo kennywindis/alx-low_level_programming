@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mian - print even numbers below 4,000,000
+ * main - print even numbers below 4,000,000
  * Return: always 0
  */
 
