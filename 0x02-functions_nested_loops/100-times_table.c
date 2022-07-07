@@ -8,37 +8,45 @@
 
 void print_times_table(int n)
 {
-int num, xply, result;
+int x, y, z;
 
-if (n <= 14 && n >= 0)
+if (n >= 0 && n <= 14)
 {
-for (num = 0; num <= n; num++)
+for (x = 0; x <= n; x++)
 {
-_putchar('0');
-
-for (xply = 0; xply <= n; xply++)
+for (y = 0; y <= n; y++)
+{
+z = x * y;
+if (z > 99)
 {
 _putchar(',');
-result = num * xply;
-if (result <= 99)
-_putchar(' ');
-
-if (result <= 9)
-_putchar(' ');
-
-if (result > 100)
-{
-_putchar((result / 100) + '0');
-_putchar((result / 10) % 10 + '0');
+_putchar(32);
+_putchar((z / 100) + '0');
+_putchar(((z / 10) % 10) + '0');
+_putchar((z % 10) + '0');
 }
-
-else if (result <= 99 && result >= 10)
+else if (z > 9)
 {
-_putchar((result / 10) + '0');
+_putchar(',');
+_putchar(32);
+_putchar(32);
+_putchar(((z / 10) % 10) + '0');
+_putchar((z % 10) + '0');
 }
-_putchar((result % 10) + '0');
+else
+{
+if (y != 0)
+{
+_putchar(',');
+_putchar(32);
+_putchar(32);
+_putchar(32);
+}
+_putchar(z + '0');
+}
 }
 _putchar('\n');
 }
 }
 }
+
