@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 fibonacci nunmbers
+ * main - prints the first 52 fibonacci nunmbers
  * Return: always 0
  */
 
@@ -25,9 +25,7 @@ w += d;
 d = w - d;
 printf(", %ld", w);
 }
-
-k++;
-
+++k;
 }
 printf("\n");
 return (0);
