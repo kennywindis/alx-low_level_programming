@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 
 /**
 * main - causes an infinite loop
@@ -23,7 +23,6 @@ i = 0;
 *putchar(i);
 *}
 */
-
 printf("Infinite loop avoided! \\o/\n");
 
 
