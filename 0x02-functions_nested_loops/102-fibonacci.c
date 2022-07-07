@@ -2,7 +2,7 @@
 
 /**
  * main - prints the first 52 fibonacci nunmbers
- * Return: always 0
+ * Return: void
  */
 
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 int k = 0;
 long d = 1, w = 2;
 
-while (k < 50)
+while (k < 52)
 {
 
 if (k == 0)
