@@ -10,7 +10,7 @@ void print_times_table(int n)
 {
 int num, xply, result;
 
-if (n <= 15 && n > 0)
+if (n <= 14 && n >= 0)
 {
 for (num = 0; num <= n; num++)
 {
@@ -21,10 +21,10 @@ for (xply = 0; xply <= n; xply++)
 _putchar(',');
 result = num * xply;
 if (result <= 99)
-_putchar(',');
+_putchar(' ');
 
 if (result <= 9)
-_putchar(',');
+_putchar(' ');
 
 if (result > 100)
 {
