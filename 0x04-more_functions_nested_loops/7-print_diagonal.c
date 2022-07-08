@@ -15,7 +15,7 @@ while (i < n && n > 0)
 ii = 0;
 while (ii < i)
 {
-_putchar('');
+_putchar(' ');
 ii++;
 }
 _putchar('\\');
