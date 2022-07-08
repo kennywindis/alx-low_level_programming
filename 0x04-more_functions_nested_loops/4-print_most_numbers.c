@@ -18,5 +18,5 @@ _putchar(a + '0');
 }
 a++
 }
-_putchar('\n')
+_putchar('\n');
 }
