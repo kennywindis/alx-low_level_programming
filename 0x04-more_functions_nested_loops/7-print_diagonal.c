@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_diagonal - diagonal lines made of backslashes
@@ -18,6 +18,7 @@ while (ii < i)
 _putchar(' ');
 ii++;
 }
+
 _putchar('\\');
 _putchar('\n');
 i++;
