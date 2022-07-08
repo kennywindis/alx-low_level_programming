@@ -12,7 +12,7 @@ int i = 0, ii;
 
 while (i < n && n > 0)
 {
-ii = 0
+ii = 0;
 while (ii < i)
 {
 _putchar('');
