@@ -23,6 +23,6 @@ _putchar('\\');
 _putchar('\n');
 i++;
 }
-if (i == 0)
+if (i == (n - 1))
 _putchar('\n');
 }
