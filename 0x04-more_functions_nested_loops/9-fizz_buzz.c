@@ -31,11 +31,11 @@ printf("%i", i);
 }
 if (i != 100)
 {
-_putchar(' ');
+putchar(' ');
 }
 i++;
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
 
