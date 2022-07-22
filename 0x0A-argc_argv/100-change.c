@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <stdbool.h>
 
 /**
  * coinConverter - Helper function that does all the mathematics
@@ -53,11 +51,13 @@ printf("Error\n");
 return (1);
 }
 i = atoi(argv[1]);
+
 if (i < 0)
 printf("0\n");
 else
 {
 coin = coinConverter(i);
+
 printf("%d\n", coin);
 }
 return (0);
