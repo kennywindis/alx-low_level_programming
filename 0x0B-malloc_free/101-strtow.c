@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stddef.h>
 
 int word_len(char *str);
 int count_words(char *str);
@@ -84,7 +83,3 @@ strings[w][l] = '\0';
 strings[w] = NULL;
 return (strings);
 }
-
-
-
-
